@@ -30,7 +30,7 @@ const sections = [
   },
   {
     title: 'Section III - Le MEDAF',
-    description: "Modèle d'évaluation des actifs financiers",
+    description: "Modèle d&apos;évaluation des actifs financiers",
     href: '/section-3',
     icon: Brain,
     color: 'text-purple-600',
@@ -46,7 +46,7 @@ const sections = [
   },
   {
     title: 'Cas pratiques',
-    description: "Exercices pratiques et cas d'application",
+    description: "Exercices pratiques et cas d&apos;application",
     href: '/questions-dscg',
     icon: FileText,
     color: 'text-indigo-600',

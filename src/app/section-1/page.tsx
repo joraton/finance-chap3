@@ -10,21 +10,21 @@ export default function Section1() {
         
         <div className="bg-white rounded-xl shadow-lg p-8">
           <h1 className="text-4xl font-bold text-gray-900 mb-6">
-            Section I - Le couple rentabilité/risque d'une action
+            Section I - Le couple rentabilité/risque d&apos;une action
           </h1>
           
           <div className="prose prose-lg max-w-none">
             <div className="bg-blue-50 border-l-4 border-blue-500 p-6 mb-8">
               <h2 className="text-xl font-semibold text-blue-900 mb-3">
                 <Calculator className="inline h-5 w-5 mr-2" />
-                Objectifs d'apprentissage
+                Objectifs d&apos;apprentissage
               </h2>
               <ul className="text-blue-800 space-y-2">
-                <li>• Comprendre les composantes de la rentabilité d'une action</li>
+                <li>• Comprendre les composantes de la rentabilité d&apos;une action</li>
                 <li>• Calculer la rentabilité passée et espérée</li>
-                <li>• Mesurer le risque par la volatilité et l'écart-type</li>
+                <li>• Mesurer le risque par la volatilité et l&apos;écart-type</li>
                 <li>• Analyser la relation rentabilité-risque</li>
-                <li>• Maîtriser les formules de variance et d'écart-type</li>
+                <li>• Maîtriser les formules de variance et d&apos;écart-type</li>
               </ul>
             </div>
             
@@ -34,23 +34,23 @@ export default function Section1() {
               </h2>
               <p className="text-yellow-800 text-lg">
                 <strong>Plus le risque est élevé, plus la rentabilité attendue est importante.</strong><br/>
-                La rentabilité doit rémunérer le risque. Un investisseur ayant une aversion au risque exigera une prime de risque plus élevée pour accepter d'investir dans un titre volatil.
+                La rentabilité doit rémunérer le risque. Un investisseur ayant une aversion au risque exigera une prime de risque plus élevée pour accepter d&apos;investir dans un titre volatil.
               </p>
             </div>
             
             <div className="bg-green-50 border-l-4 border-green-500 p-6 mb-8">
               <h2 className="text-xl font-semibold text-green-900 mb-3">Dans cette section</h2>
               <ul className="text-green-800 space-y-2">
-                <li>Calcul de la rentabilité d'une action (passée et future)</li>
+                <li>Calcul de la rentabilité d&apos;une action (passée et future)</li>
                 <li>Mesure de la volatilité et du risque</li>
-                <li>Utilisation de l'écart-type comme indicateur de risque</li>
+                <li>Utilisation de l&apos;écart-type comme indicateur de risque</li>
               </ul>
             </div>
             
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">1. Calcul de la rentabilité d'une action</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">1. Calcul de la rentabilité d&apos;une action</h2>
             
             <p className="text-gray-700 mb-6">
-              L'investisseur peut estimer la rentabilité de deux manières :
+              L&apos;investisseur peut estimer la rentabilité de deux manières :
             </p>
             
             <div className="grid md:grid-cols-2 gap-6 mb-8">
@@ -137,25 +137,25 @@ export default function Section1() {
               </div>
             </div>
             
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">2. La volatilité et le risque de l'action</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">2. La volatilité et le risque de l&apos;action</h2>
             
             <div className="bg-red-50 border-l-4 border-red-500 p-6 mb-8">
               <h3 className="text-lg font-semibold text-red-900 mb-3">⚠️ Définition du risque</h3>
               <p className="text-red-800">
-                La <strong>volatilité</strong> est la variation du cours d'un titre. Plus la volatilité est importante, plus le risque est élevé. Le risque se mesure par l'<strong>écart-type</strong>.
+                La <strong>volatilité</strong> est la variation du cours d&apos;un titre. Plus la volatilité est importante, plus le risque est élevé. Le risque se mesure par l&apos;<strong>écart-type</strong>.
               </p>
             </div>
             
             <div className="bg-blue-50 p-6 rounded-lg mb-8">
-              <h3 className="text-lg font-semibold text-blue-900 mb-3">Interprétation de l'écart-type (σ)</h3>
+              <h3 className="text-lg font-semibold text-blue-900 mb-3">Interprétation de l&apos;écart-type (σ)</h3>
               <ul className="text-blue-800 space-y-2">
-                <li>• Si σ = 0 → l'action n'est pas risquée</li>
-                <li>• Si σ &gt; 0 → l'action présente un risque</li>
+                <li>• Si σ = 0 → l&apos;action n&apos;est pas risquée</li>
+                <li>• Si σ &gt; 0 → l&apos;action présente un risque</li>
                 <li>• Plus σ est élevé → plus le risque est important</li>
               </ul>
             </div>
             
-            <h3 className="text-xl font-bold text-gray-900 mb-4">Calcul de l'écart-type (données historiques)</h3>
+            <h3 className="text-xl font-bold text-gray-900 mb-4">Calcul de l&apos;écart-type (données historiques)</h3>
             
             <div className="bg-gray-50 p-6 rounded-lg mb-6">
               <div className="space-y-4">
@@ -178,8 +178,8 @@ export default function Section1() {
                 Mesure du risque
               </h3>
               <p className="mb-4">
-                Le risque d'un investissement se mesure par la <strong>volatilité</strong> des rentabilités, 
-                quantifiée par l'<strong>écart-type</strong>.
+                Le risque d&apos;un investissement se mesure par la <strong>volatilité</strong> des rentabilités, 
+                quantifiée par l&apos;<strong>écart-type</strong>.
               </p>
               
               <div className="bg-white p-4 rounded border-l-4 border-green-500 mb-4">
@@ -198,12 +198,12 @@ export default function Section1() {
                   <p className="font-mono bg-gray-100 p-2 rounded mb-2">
                     σ = √(σ²)
                   </p>
-                  <p className="text-sm text-gray-600">L'écart-type est la racine carrée de la variance</p>
+                  <p className="text-sm text-gray-600">L&apos;écart-type est la racine carrée de la variance</p>
                 </div>
                 
                 <div className="bg-yellow-50 p-3 rounded">
                   <p className="font-semibold text-yellow-800">
-                    💡 Principe : Plus l'écart-type est élevé, plus le risque est important
+                    💡 Principe : Plus l&apos;écart-type est élevé, plus le risque est important
                   </p>
                 </div>
               </div>
@@ -227,7 +227,7 @@ export default function Section1() {
               <p className="text-green-800">
                 <strong>V.E.R.</strong> - <em>Variance, Écart-type, Risque</em>
                 <br />
-                La variance mesure la dispersion, l'écart-type la quantifie, le risque l'interprète !
+                La variance mesure la dispersion, l&apos;écart-type la quantifie, le risque l&apos;interprète !
               </p>
             </div>
           </div>

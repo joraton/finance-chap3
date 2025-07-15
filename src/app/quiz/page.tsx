@@ -17,7 +17,7 @@ interface Question {
 const questions: Question[] = [
   {
     id: 1,
-    question: "Quelle est la formule de calcul de la rentabilité annuelle d'une action ?",
+    question: "Quelle est la formule de calcul de la rentabilité annuelle d&apos;une action ?",
     options: [
       "(Dividende + Prix final) / Prix initial",
       "(Dividende + Prix final - Prix initial) / Prix initial",
@@ -29,27 +29,27 @@ const questions: Question[] = [
   },
   {
     id: 2,
-    question: "Que mesure l'écart-type d'une action ?",
+    question: "Que mesure l&apos;écart-type d&apos;une action ?",
     options: [
       "La rentabilité moyenne",
       "Le risque (volatilité)",
-      "Le prix de l'action",
+      "Le prix de l&apos;action",
       "Le dividende"
     ],
     correct: 1,
-    explanation: "L'écart-type mesure la dispersion des rentabilités autour de la moyenne, donc le risque."
+    explanation: "L&apos;écart-type mesure la dispersion des rentabilités autour de la moyenne, donc le risque."
   },
   {
     id: 3,
     question: "Un coefficient bêta (β) de 1,5 signifie que :",
     options: [
-      "L'action varie comme le marché",
-      "L'action est 1,5 fois plus volatile que le marché",
-      "L'action est moins risquée que le marché",
-      "L'action n'est pas corrélée au marché"
+      "L&apos;action varie comme le marché",
+      "L&apos;action est 1,5 fois plus volatile que le marché",
+      "L&apos;action est moins risquée que le marché",
+      "L&apos;action n&apos;est pas corrélée au marché"
     ],
     correct: 1,
-    explanation: "β > 1 indique que l'action amplifie les mouvements du marché (plus volatile)."
+    explanation: "β > 1 indique que l&apos;action amplifie les mouvements du marché (plus volatile)."
   },
   {
     id: 4,
@@ -58,19 +58,19 @@ const questions: Question[] = [
       "Le taux sans risque",
       "La prime de risque du marché",
       "Le coefficient bêta",
-      "La rentabilité de l'action"
+      "La rentabilité de l&apos;action"
     ],
     correct: 1,
     explanation: "[E(Rm) - Rf] est la prime de risque du marché, soit l'excédent de rentabilité du marché par rapport au taux sans risque."
   },
   {
     id: 5,
-    question: "Le risque spécifique d'une entreprise peut être réduit par :",
+    question: "Le risque spécifique d&apos;une entreprise peut être réduit par :",
     options: [
-      "L'augmentation du coefficient bêta",
+      "L&apos;augmentation du coefficient bêta",
       "La diversification du portefeuille",
-      "L'investissement dans un seul secteur",
-      "L'augmentation du taux sans risque"
+      "L&apos;investissement dans un seul secteur",
+      "L&apos;augmentation du taux sans risque"
     ],
     correct: 1,
     explanation: "Le risque spécifique est diversifiable : en investissant dans plusieurs secteurs, on réduit l'exposition aux risques particuliers."

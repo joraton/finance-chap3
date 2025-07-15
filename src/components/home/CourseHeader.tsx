@@ -10,10 +10,10 @@ export default function CourseHeader() {
         
         <div className="flex-1">
           <h1 className="text-3xl md:text-4xl font-bold mb-2">
-            La Rentabilité et le Risque d'une Action
+            La Rentabilité et le Risque d&apos;une Action
           </h1>
           <p className="text-blue-100 text-lg mb-4">
-            Maîtrisez les concepts fondamentaux du MEDAF et de l'évaluation des actions
+            Maîtrisez les concepts fondamentaux du MEDAF et de l&apos;évaluation des actions
           </p>
           
           <div className="flex flex-wrap gap-4">

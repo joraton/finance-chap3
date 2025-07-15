@@ -10,7 +10,7 @@ export default function Section3() {
         
         <div className="bg-white rounded-xl shadow-lg p-8">
           <h1 className="text-4xl font-bold text-gray-900 mb-6">
-              Section III - Le MEDAF (Modèle d'Évaluation des Actifs Financiers)
+              Section III - Le MEDAF (Modèle d&apos;Évaluation des Actifs Financiers)
             </h1>
           
           <div className="prose prose-lg max-w-none">
@@ -23,7 +23,7 @@ export default function Section3() {
                 <li>Comprendre le modèle MEDAF et ses hypothèses</li>
                 <li>Appliquer la formule du MEDAF</li>
                 <li>Interpréter la relation rentabilité-risque</li>
-                <li>Utiliser le MEDAF pour l'évaluation d'actifs</li>
+                <li>Utiliser le MEDAF pour l&apos;évaluation d&apos;actifs</li>
               </ul>
             </div>
             
@@ -32,7 +32,7 @@ export default function Section3() {
             <div className="bg-blue-50 border-l-4 border-blue-500 p-6 mb-6">
               <h3 className="text-lg font-semibold text-blue-900 mb-3">Définition</h3>
               <p className="text-blue-800">
-                Le <strong>MEDAF</strong> (Modèle d'Évaluation des Actifs Financiers) ou <strong>CAPM</strong> (Capital Asset Pricing Model) est un modèle financier qui établit une relation entre la rentabilité espérée d'un actif et son risque systématique.
+                Le <strong>MEDAF</strong> (Modèle d&apos;Évaluation des Actifs Financiers) ou <strong>CAPM</strong> (Capital Asset Pricing Model) est un modèle financier qui établit une relation entre la rentabilité espérée d&apos;un actif et son risque systématique.
               </p>
             </div>
             
@@ -55,9 +55,9 @@ export default function Section3() {
                   E(Ri) = Rf + βi × [E(Rm) - Rf]
                 </p>
                 <div className="text-sm text-gray-600 space-y-1">
-                  <p><strong>E(Ri)</strong> = Rentabilité espérée de l'actif i</p>
+                  <p><strong>E(Ri)</strong> = Rentabilité espérée de l&apos;actif i</p>
                   <p><strong>Rf</strong> = Taux sans risque</p>
-                  <p><strong>βi</strong> = Coefficient bêta de l'actif i</p>
+                  <p><strong>βi</strong> = Coefficient bêta de l&apos;actif i</p>
                   <p><strong>E(Rm)</strong> = Rentabilité espérée du marché</p>
                   <p><strong>[E(Rm) - Rf]</strong> = Prime de risque du marché</p>
                 </div>
@@ -70,7 +70,7 @@ export default function Section3() {
               <div className="bg-green-50 p-6 rounded-lg">
                 <h4 className="text-lg font-semibold text-green-900 mb-3">💰 Taux sans risque (Rf)</h4>
                 <p className="text-green-800">
-                  Rentabilité d'un placement sans risque (ex: obligations d'État). C'est la rémunération minimale exigée.
+                  Rentabilité d&apos;un placement sans risque (ex: obligations d&apos;État). C&apos;est la rémunération minimale exigée.
                 </p>
               </div>
               
@@ -119,7 +119,7 @@ export default function Section3() {
                 <ul className="text-gray-600 space-y-1 mb-4">
                   <li>• Taux sans risque (Rf) = 3%</li>
                   <li>• Rentabilité espérée du marché E(Rm) = 10%</li>
-                  <li>• Coefficient bêta de l'action (β) = 1,2</li>
+                  <li>• Coefficient bêta de l&apos;action (β) = 1,2</li>
                 </ul>
                 
                 <p className="text-gray-700 mb-2"><strong>Calcul :</strong></p>
@@ -161,7 +161,7 @@ export default function Section3() {
               </div>
               <div className="mt-4 bg-white p-3 rounded">
                 <p className="text-red-700 text-sm">
-                  <strong>Hypothèse clé :</strong> Possibilité d'emprunter et prêter au taux sans risque pour tous les investisseurs
+                  <strong>Hypothèse clé :</strong> Possibilité d&apos;emprunter et prêter au taux sans risque pour tous les investisseurs
                 </p>
               </div>
             </div>
@@ -227,7 +227,7 @@ export default function Section3() {
                   <div className="bg-purple-50 p-3 rounded">
                     <h5 className="font-semibold mb-2">3️⃣ Facteur Valeur (HML)</h5>
                     <p className="text-sm">hi × HML</p>
-                    <p className="text-xs text-gray-600">High Minus Low : prime des titres "value"</p>
+                    <p className="text-xs text-gray-600">High Minus Low : prime des titres &quot;value&quot;</p>
                   </div>
                 </div>
               </div>
@@ -236,7 +236,7 @@ export default function Section3() {
                 <h4 className="font-semibold mb-2">🎯 Avantages du modèle Fama-French :</h4>
                 <ul className="text-sm space-y-1">
                   <li>• Meilleur pouvoir explicatif que le MEDAF (R² ≈ 90% vs 70%)</li>
-                  <li>• Prise en compte de l'effet taille et de l'effet valeur</li>
+                  <li>• Prise en compte de l&apos;effet taille et de l&apos;effet valeur</li>
                   <li>• Validation empirique robuste sur différents marchés</li>
                   <li>• Base théorique solide (risque de détresse financière)</li>
                 </ul>
@@ -282,7 +282,7 @@ export default function Section3() {
                 <li>• Le modèle permet de déterminer si un titre est sur/sous-évalué</li>
                 <li>• La prime de risque rémunère le risque systématique non diversifiable</li>
                 <li>• Les modèles multifactoriels (Fama-French) offrent une meilleure explication</li>
-                <li>• Le choix du modèle dépend du contexte et de l'objectif d'analyse</li>
+                <li>• Le choix du modèle dépend du contexte et de l&apos;objectif d&apos;analyse</li>
               </ul>
             </div>
             
@@ -292,10 +292,10 @@ export default function Section3() {
                 Applications pratiques du MEDAF
               </h3>
               <ul className="text-blue-800 space-y-2">
-                <li>• Évaluation d'actions et de projets d'investissement</li>
+                <li>• Évaluation d&apos;actions et de projets d&apos;investissement</li>
                 <li>• Détermination du coût des capitaux propres</li>
                 <li>• Analyse de performance des portefeuilles</li>
-                <li>• Prise de décisions d'investissement</li>
+                <li>• Prise de décisions d&apos;investissement</li>
               </ul>
             </div>
           </div>

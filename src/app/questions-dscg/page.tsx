@@ -20,7 +20,7 @@ const exercises: Exercise[] = [
   {
     id: 1,
     title: "Calcul de rentabilité et de risque - Action Alpha",
-    context: "L'entreprise Alpha souhaite analyser la performance de son action sur les 4 dernières années.",
+    context: "L&apos;entreprise Alpha souhaite analyser la performance de son action sur les 4 dernières années.",
     data: [
       "Cours au 01/01/N-3 : 100 €",
       "Année N-3 : Dividende 4€, Cours final 110€",
@@ -31,7 +31,7 @@ const exercises: Exercise[] = [
     questions: [
       "1. Calculer la rentabilité annuelle pour chaque année",
       "2. Déterminer la rentabilité moyenne sur la période",
-      "3. Calculer l'écart-type (risque) de cette action",
+      "3. Calculer l&apos;écart-type (risque) de cette action",
       "4. Interpréter les résultats obtenus"
     ],
     solution: [
@@ -44,7 +44,7 @@ const exercises: Exercise[] = [
       "2. Rentabilité moyenne :",
       "   R̄ = (14% - 10,91% + 31,58% - 0,83%) / 4 = 8,46%",
       "",
-      "3. Calcul de l'écart-type :",
+      "3. Calcul de l&apos;écart-type :",
       "   Variance = [(14-8,46)² + (-10,91-8,46)² + (31,58-8,46)² + (-0,83-8,46)²] / 4",
       "   Variance = [30,69 + 376,32 + 534,02 + 86,32] / 4 = 256,84",
       "   Écart-type = √256,84 = 16,03%",
@@ -58,25 +58,25 @@ const exercises: Exercise[] = [
       "📊 Méthodologie de calcul :",
       "1. Toujours utiliser le cours de début de période au dénominateur",
       "2. Inclure dividendes ET plus-values dans le numérateur",
-      "3. Pour l'écart-type : variance puis racine carrée",
-      "4. Interpréter le risque en fonction du secteur d'activité"
+      "3. Pour l&apos;écart-type : variance puis racine carrée",
+      "4. Interpréter le risque en fonction du secteur d&apos;activité"
     ]
   },
   {
     id: 2,
-    title: "Application du MEDAF - Évaluation d'action",
-    context: "Un investisseur souhaite évaluer la rentabilité exigée pour l'action de la société Beta.",
+    title: "Application du MEDAF - Évaluation d&apos;action",
+    context: "Un investisseur souhaite évaluer la rentabilité exigée pour l&apos;action de la société Beta.",
     data: [
       "Taux sans risque (OAT 10 ans) : 2,5%",
       "Rentabilité espérée du marché (CAC 40) : 9%",
-      "Coefficient bêta de l'action Beta : 1,3",
-      "Rentabilité observée de l'action : 11%"
+      "Coefficient bêta de l&apos;action Beta : 1,3",
+      "Rentabilité observée de l&apos;action : 11%"
     ],
     questions: [
       "1. Calculer la rentabilité exigée selon le MEDAF",
       "2. Comparer avec la rentabilité observée",
-      "3. Que peut-on en conclure sur l'action ?",
-      "4. Calculer la prime de risque de l'action"
+      "3. Que peut-on en conclure sur l&apos;action ?",
+      "4. Calculer la prime de risque de l&apos;action"
     ],
     solution: [
       "1. Rentabilité exigée (MEDAF) :",
@@ -90,11 +90,11 @@ const exercises: Exercise[] = [
       "   • Différence : +0,05 point",
       "",
       "3. Conclusion :",
-      "   L'action offre une rentabilité légèrement supérieure à celle exigée.",
-      "   → Action attractive pour l'investissement",
+      "   L&apos;action offre une rentabilité légèrement supérieure à celle exigée.",
+      "   → Action attractive pour l&apos;investissement",
       "   → Sous-évaluée par le marché",
       "",
-      "4. Prime de risque de l'action :",
+      "4. Prime de risque de l&apos;action :",
       "   Prime = β × Prime de marché = 1,3 × 6,5% = 8,45%"
     ],
     methodology: [
@@ -102,7 +102,7 @@ const exercises: Exercise[] = [
       "1. Le bêta mesure la sensibilité au risque de marché",
       "2. β > 1 : action plus volatile que le marché",
       "3. Comparer rentabilité exigée vs observée pour décider",
-      "4. MEDAF = outil d'aide à la décision d'investissement"
+      "4. MEDAF = outil d&apos;aide à la décision d&apos;investissement"
     ]
   },
   {
@@ -119,7 +119,7 @@ const exercises: Exercise[] = [
     questions: [
       "1. Calculer la rentabilité exigée pour chaque action (MEDAF)",
       "2. Identifier les actions sur/sous-évaluées",
-      "3. Recommander une stratégie d'investissement",
+      "3. Recommander une stratégie d&apos;investissement",
       "4. Analyser le profil risque/rentabilité"
     ],
     solution: [
@@ -134,9 +134,9 @@ const exercises: Exercise[] = [
       "   • Action C : 13% < 13,5% → Surévaluée (éviter)",
       "",
       "3. Stratégie recommandée :",
-      "   → Investir prioritairement dans l'action B",
+      "   → Investir prioritairement dans l&apos;action B",
       "   → Éviter les actions A et C",
-      "   → Diversifier avec d'autres titres attractifs",
+      "   → Diversifier avec d&apos;autres titres attractifs",
       "",
       "4. Profil risque/rentabilité :",
       "   • Action A : Faible risque, rentabilité insuffisante",
@@ -147,7 +147,7 @@ const exercises: Exercise[] = [
       "💼 Stratégie de sélection :",
       "1. Calculer systématiquement la rentabilité exigée",
       "2. Privilégier les actions sous-évaluées",
-      "3. Considérer le profil de risque de l'investisseur",
+      "3. Considérer le profil de risque de l&apos;investisseur",
       "4. Diversifier pour réduire le risque spécifique"
     ]
   }
@@ -178,7 +178,7 @@ export default function QuestionsDSCG() {
         
         <div className="bg-white rounded-xl shadow-lg p-8">
           <h1 className="text-4xl font-bold text-gray-900 mb-6">
-            Cas pratiques - Exercices d'application
+            Cas pratiques - Exercices d&apos;application
           </h1>
           
           <div className="bg-indigo-50 border-l-4 border-indigo-500 p-6 mb-8">
@@ -188,9 +188,9 @@ export default function QuestionsDSCG() {
             </h2>
             <ul className="text-indigo-800 space-y-2">
               <li>• Appliquer les formules de rentabilité et de risque</li>
-              <li>• Maîtriser le calcul et l'interprétation du MEDAF</li>
-              <li>• Développer une méthodologie d'analyse financière</li>
-              <li>• Prendre des décisions d'investissement éclairées</li>
+              <li>• Maîtriser le calcul et l&apos;interprétation du MEDAF</li>
+              <li>• Développer une méthodologie d&apos;analyse financière</li>
+              <li>• Prendre des décisions d&apos;investissement éclairées</li>
               <li>• Analyser des portefeuilles et optimiser les allocations</li>
               <li>• Interpréter les résultats dans un contexte économique</li>
             </ul>
@@ -241,7 +241,7 @@ export default function QuestionsDSCG() {
               <h3 className="text-xl font-semibold mb-4 text-purple-900">Exercice 4 : Analyse de portefeuille et diversification</h3>
               <div className="bg-gray-50 p-4 rounded mb-4">
                 <p className="mb-3">
-                  <strong>Énoncé :</strong> Un portefeuille est composé de 60% d'actions A (β = 1,2, σ = 25%) et 40% d'actions B (β = 0,8, σ = 20%). 
+                  <strong>Énoncé :</strong> Un portefeuille est composé de 60% d&apos;actions A (β = 1,2, σ = 25%) et 40% d&apos;actions B (β = 0,8, σ = 20%). 
                   Le taux sans risque est de 3% et la prime de risque du marché de 6%. La corrélation entre A et B est de 0,4.
                 </p>
                 <p className="mb-2"><strong>Questions :</strong></p>
@@ -249,7 +249,7 @@ export default function QuestionsDSCG() {
                   <li>Calculez la rentabilité espérée du portefeuille</li>
                   <li>Calculez le Beta du portefeuille</li>
                   <li>Calculez le risque (écart-type) du portefeuille</li>
-                  <li>Analysez l'effet de la diversification</li>
+                  <li>Analysez l&apos;effet de la diversification</li>
                 </ol>
               </div>
               
@@ -389,12 +389,12 @@ export default function QuestionsDSCG() {
           </div>
           
           <div className="mt-8 bg-yellow-50 border-l-4 border-yellow-500 p-6">
-            <h3 className="text-lg font-semibold text-yellow-900 mb-3">🎯 Conseils pour l'examen DSCG</h3>
+            <h3 className="text-lg font-semibold text-yellow-900 mb-3">🎯 Conseils pour l&apos;examen DSCG</h3>
             <ul className="text-yellow-800 space-y-2">
               <li>• <strong>Méthodologie :</strong> Toujours expliciter les formules utilisées</li>
               <li>• <strong>Calculs :</strong> Détailler chaque étape, même les plus simples</li>
               <li>• <strong>Interprétation :</strong> Commenter systématiquement les résultats</li>
-              <li>• <strong>Recommandations :</strong> Conclure par des conseils d'investissement</li>
+              <li>• <strong>Recommandations :</strong> Conclure par des conseils d&apos;investissement</li>
               <li>• <strong>Présentation :</strong> Structurer clairement vos réponses</li>
             </ul>
           </div>

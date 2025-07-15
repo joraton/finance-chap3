@@ -19,7 +19,7 @@ export default function Section2() {
               <ul className="text-orange-800 space-y-2">
                 <li>Distinction entre risque systématique et risque spécifique</li>
                 <li>Calcul et interprétation du coefficient bêta (β)</li>
-                <li>Mesure de la sensibilité d'une action au marché</li>
+                <li>Mesure de la sensibilité d&apos;une action au marché</li>
               </ul>
             </div>
             
@@ -37,7 +37,7 @@ export default function Section2() {
                   <strong>(Risque de marché - Non diversifiable)</strong>
                 </p>
                 <p className="text-red-700">
-                  Affecte l'ensemble du marché
+                  Affecte l&apos;ensemble du marché
                 </p>
               </div>
               
@@ -47,10 +47,10 @@ export default function Section2() {
                   Risque spécifique
                 </h3>
                 <p className="text-blue-800 mb-2">
-                  <strong>(Risque d'entreprise - Diversifiable)</strong>
+                  <strong>(Risque d&apos;entreprise - Diversifiable)</strong>
                 </p>
                 <p className="text-blue-700">
-                  Propre à l'entreprise ou au secteur
+                  Propre à l&apos;entreprise ou au secteur
                 </p>
               </div>
             </div>
@@ -60,12 +60,12 @@ export default function Section2() {
             <div className="bg-red-50 border-l-4 border-red-500 p-6 mb-6">
               <h3 className="text-lg font-semibold text-red-900 mb-3">Caractéristiques</h3>
               <p className="text-red-800 mb-3">
-                Le risque de marché touche l'intégralité du marché car il s'agit d'événements extérieurs que subissent toutes les entreprises.
+                Le risque de marché touche l&apos;intégralité du marché car il s&apos;agit d&apos;événements extérieurs que subissent toutes les entreprises.
               </p>
               <ul className="text-red-700 space-y-1">
                 <li>• Conjoncture économique</li>
                 <li>• Changements de politique</li>
-                <li>• Évolution des taux d'intérêt</li>
+                <li>• Évolution des taux d&apos;intérêt</li>
                 <li>• Conflits géopolitiques (guerre en Ukraine)</li>
                 <li>• Crises sanitaires (COVID-19, confinements)</li>
               </ul>
@@ -75,7 +75,7 @@ export default function Section2() {
               <h4 className="text-lg font-semibold text-gray-900 mb-3">📰 Exemple historique : Mars 2020</h4>
               <div className="bg-white p-4 rounded border-l-4 border-gray-400">
                 <p className="text-gray-700 italic mb-2">
-                  &quot;Wall"Wall Street essuie sa pire séance depuis 2008 sous l'effet du Coronavirus"
+                  &quot;Wall Street essuie sa pire séance depuis 2008 sous l&apos;effet du Coronavirus&quot;
                 </p>
                 <ul className="text-gray-600 text-sm space-y-1">
                   <li>• Dow Jones : -7,8% (-2013 points)</li>
@@ -91,28 +91,28 @@ export default function Section2() {
             <div className="bg-blue-50 border-l-4 border-blue-500 p-6 mb-6">
               <h3 className="text-lg font-semibold text-blue-900 mb-3">Caractéristiques</h3>
               <p className="text-blue-800 mb-3">
-                La fluctuation du cours peut s'expliquer par des caractéristiques propres de l'entreprise.
+                La fluctuation du cours peut s&apos;expliquer par des caractéristiques propres de l&apos;entreprise.
               </p>
               <ul className="text-blue-700 space-y-1">
                 <li>• Décisions de gestion</li>
                 <li>• Évolution des parts de marché</li>
                 <li>• Risque technologique</li>
                 <li>• Risque environnemental</li>
-                <li>• Spécificités du secteur d'activité</li>
+                <li>• Spécificités du secteur d&apos;activité</li>
               </ul>
             </div>
             
             <div className="bg-green-50 border-l-4 border-green-500 p-6 mb-8">
               <h3 className="text-lg font-semibold text-green-900 mb-3">💡 Pourquoi &quot;diversifiable&quot; ?</h3>
               <p className="text-green-800">
-                Si l'investisseur investit dans plusieurs titres de secteurs d'activité différents, il ne sera pas dépendant du risque spécifique lié à une action ou un secteur en difficulté.
+                Si l&apos;investisseur investit dans plusieurs titres de secteurs d&apos;activité différents, il ne sera pas dépendant du risque spécifique lié à une action ou un secteur en difficulté.
               </p>
             </div>
             
             <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 mb-8">
               <h4 className="text-lg font-semibold text-yellow-900 mb-3">📉 Exemple : Cas Atos</h4>
               <p className="text-yellow-800">
-                La valeur de l'action Atos s'est effondrée suite à l'annonce du groupe de ne pas pouvoir faire face à sa prochaine échéance d'emprunt. Risque spécifique à l'entreprise.
+                La valeur de l&apos;action Atos s&apos;est effondrée suite à l&apos;annonce du groupe de ne pas pouvoir faire face à sa prochaine échéance d&apos;emprunt. Risque spécifique à l&apos;entreprise.
               </p>
             </div>
             
@@ -124,7 +124,7 @@ export default function Section2() {
                 Définition
               </h3>
               <p className="text-purple-800">
-                Le coefficient β est un coefficient qui mesure la <strong>sensibilité d'une valeur par rapport à son indice de référence</strong> (le marché).
+                Le coefficient β est un coefficient qui mesure la <strong>sensibilité d&apos;une valeur par rapport à son indice de référence</strong> (le marché).
               </p>
             </div>
             
@@ -135,7 +135,7 @@ export default function Section2() {
                   <strong>β = Covariance(Ra, Rm) / Variance(Rm)</strong>
                 </p>
                 <p className="text-sm text-gray-600 mb-4">
-                  Ra = rentabilité de l'action, Rm = rentabilité du marché
+                  Ra = rentabilité de l&apos;action, Rm = rentabilité du marché
                 </p>
                 
                 <div className="bg-yellow-50 p-3 rounded mb-4">
@@ -157,16 +157,16 @@ export default function Section2() {
               <h4 className="text-lg font-semibold text-blue-900 mb-3">Interprétation du β</h4>
               <div className="space-y-3">
                 <div className="bg-white p-3 rounded border-l-4 border-green-500">
-                  <p><strong>β = 1</strong> : L'action varie comme le marché</p>
+                  <p><strong>β = 1</strong> : L&apos;action varie comme le marché</p>
                 </div>
                 <div className="bg-white p-3 rounded border-l-4 border-orange-500">
-                  <p><strong>β &gt; 1</strong> : L'action est plus volatile que le marché (amplification)</p>
+                  <p><strong>β &gt; 1</strong> : L&apos;action est plus volatile que le marché (amplification)</p>
                 </div>
                 <div className="bg-white p-3 rounded border-l-4 border-blue-500">
-                  <p><strong>β &lt; 1</strong> : L'action est moins volatile que le marché (atténuation)</p>
+                  <p><strong>β &lt; 1</strong> : L&apos;action est moins volatile que le marché (atténuation)</p>
                 </div>
                 <div className="bg-white p-3 rounded border-l-4 border-red-500">
-                  <p><strong>β &lt; 0</strong> : L'action varie en sens inverse du marché (rare)</p>
+                  <p><strong>β &lt; 0</strong> : L&apos;action varie en sens inverse du marché (rare)</p>
                 </div>
               </div>
             </div>
@@ -186,7 +186,7 @@ export default function Section2() {
                 </p>
                 
                 <div className="bg-blue-50 p-3 rounded mb-3">
-                  <p className="font-semibold mb-2">📊 Formule du risque d'un portefeuille (2 actifs) :</p>
+                  <p className="font-semibold mb-2">📊 Formule du risque d&apos;un portefeuille (2 actifs) :</p>
                   <p className="font-mono text-sm mb-2">
                     σp² = w₁²σ₁² + w₂²σ₂² + 2w₁w₂σ₁σ₂ρ₁₂
                   </p>
@@ -225,7 +225,7 @@ export default function Section2() {
               <p className="text-green-800">
                 <strong>B.E.T.A.</strong> - <em>Bêta Évalue Tendance Action</em>
                 <br />
-                Plus le bêta est grand, plus l'action danse avec le marché !
+                Plus le bêta est grand, plus l&apos;action danse avec le marché !
               </p>
             </div>
             
@@ -234,9 +234,9 @@ export default function Section2() {
               <ul className="text-green-800 space-y-2">
                 <li>• Le risque spécifique peut être éliminé par la diversification</li>
                 <li>• Le risque de marché affecte tous les titres et ne peut être diversifié</li>
-                <li>• Le Beta mesure la sensibilité d'un titre aux mouvements du marché</li>
+                <li>• Le Beta mesure la sensibilité d&apos;un titre aux mouvements du marché</li>
                 <li>• Un portefeuille diversifié réduit le risque total sans affecter la rentabilité espérée</li>
-                <li>• La corrélation entre les actifs détermine l'efficacité de la diversification</li>
+                <li>• La corrélation entre les actifs détermine l&apos;efficacité de la diversification</li>
               </ul>
             </div>
           </div>
